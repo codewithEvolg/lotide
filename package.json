@@ -1,0 +1,23 @@
+{
+  "name": "testing_driven_development",
+  "version": "1.0.0",
+  "description": "just trying out the testing using mocha",
+  "main": "eqObject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithEvolg/lotide.git"
+  },
+  "keywords": [
+    "tdd",
+    "testing"
+  ],
+  "author": "Oluwagbenga Ogundare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithEvolg/lotide/issues"
+  },
+  "homepage": "https://github.com/codewithEvolg/lotide#readme"
+}
