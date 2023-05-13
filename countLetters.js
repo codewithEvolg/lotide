@@ -32,3 +32,6 @@ const countLetters = (sentence) => {
 }
 
 countLetters('The boy is going to the supermarket');
+
+
+module.exports = countLetters;

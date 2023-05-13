@@ -26,3 +26,6 @@ console.log(eqObjects(shirtObject , anotherShirtObject)); // => true
 
 const longSleeveShirtObject= { size: "medium", color: "red", sleeveLength: "long" };
 console.log(eqObjects(shirtObject , longSleeveShirtObject)); // => false
+
+
+module.exports = eqObjects;

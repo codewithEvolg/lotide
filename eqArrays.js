@@ -24,7 +24,10 @@ const eqArrays = function(array1, array2){
       };
     }
   }
-  console.log(result);
+  return result;
 }
 
-eqArrays([1, 2, 3], [1, 2, 3]);
+
+
+
+module.exports = eqArrays;
