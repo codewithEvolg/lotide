@@ -30,10 +30,7 @@ const middle = function(myArray){
     finalArray.push(myArray[(arrayLength/2) - 1]);
     finalArray.push(myArray[arrayLength/2]);
   }
-  console.log(finalArray);
+  return finalArray;
 }
-
-middle([1, 2, 3]) // => [2]
-middle([1, 2, 3, 4,5,6,7,8]) // => [4,5]
 
 module.exports = middle;
