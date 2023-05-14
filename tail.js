@@ -13,6 +13,4 @@ const tail = function(arrayList){
 }
 
 
-
-
 module.exports = tail;
