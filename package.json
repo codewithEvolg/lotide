@@ -1,6 +1,6 @@
 {
   "name": "testing_driven_development",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "just trying out the testing using mocha",
   "main": "eqObject.js",
   "scripts": {
