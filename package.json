@@ -1,8 +1,8 @@
 {
-  "name": "testing_driven_development",
-  "version": "1.0.1",
-  "description": "just trying out the testing using mocha",
-  "main": "eqObject.js",
+  "name": "@Oluwagb3nga/lotide",
+  "version": "1.0.0",
+  "description": "This package contains a bunch of usable functions",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
