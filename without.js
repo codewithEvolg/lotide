@@ -23,8 +23,6 @@ const without = function(firstArray, secondArray){
     let isFound = false;
     for(let b of secondArray){
       if(a === b){
-        console.log("first:",a);
-        console.log("second:",b);
         isFound = true;
         break;
       }
@@ -33,13 +31,13 @@ const without = function(firstArray, secondArray){
       finalArray.push(a);
     }
   }
-  console.log(finalArray);
+  return finalArray;
 }
 
 
 
-without([1, 2, 3], [1]) // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+//without([1, 2, 3], [1]) // => [2, 3]
+//without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
 
 
 module.exports = without;

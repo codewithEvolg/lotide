@@ -1,9 +1,9 @@
 const flatten = function(arr){
   let flatArray = [].concat.apply([], arr);
-  console.log(flatArray);
+  return flatArray;
 }
 
 
-flatten([1, 2, [3, 4], 5, [6]]); // => [1, 2, 3, 4, 5, 6]
+//flatten([1, 2, [3, 4], 5, [6]]); // => [1, 2, 3, 4, 5, 6]
 
 module.exports = flatten;

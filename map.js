@@ -33,17 +33,17 @@ const map = function(array, callback) {
   }
   return results;
 }
-const words = ["ground", "control", "to", "major", "tom"];
+//const words = ["ground", "control", "to", "major", "tom"];
 
-const results1 = map(words, word => word[0]);
+//const results1 = map(words, word => word[0]);
 
 // const results1 = words.map((word) => {
 //   return word[0];
 // });
-console.log(results1);
+// console.log(results1);
 
-const testResult = assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
-console.log(testResult);
+// const testResult = assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
+// console.log(testResult);
 
 
 module.exports = map;

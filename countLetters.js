@@ -1,12 +1,3 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
-  if(actual === expected){
-    console.log(`${String.fromCodePoint(0x1F354)}  Assertion Passed:  ${actual}   ===  ${expected}`);
-  }
-  else{
-    console.log(`${String.fromCodePoint(0x1F621)}  Assertion Failed:  ${actual}   !==  ${expected}`);
-  }
-};
 
 const countOccurrence = (arr, item)=>{
   //count occurrence of element
@@ -28,10 +19,10 @@ const countLetters = (sentence) => {
   for(const item of cloneArray){
     finalObj[item] = countOccurrence(cloneArray, item);
   }
-  console.log(finalObj);
+  return finalObj;
 }
 
-countLetters('The boy is going to the supermarket');
+//countLetters('The boy is going to the supermarket');
 
 
 module.exports = countLetters;
